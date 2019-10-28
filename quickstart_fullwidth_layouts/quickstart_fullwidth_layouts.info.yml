@@ -2,4 +2,12 @@ name: 'quickstart_fullwidth_layouts'
 type: module
 description: 'Allows users to add full width layouts to their pages in layout builder'
 core: 8.x
-# package: 'Custom'
+package: 'The University of Arizona'
+dependencies:
+  - drupal:layout_builder
+  - drupal:layout_discovery
+  - drupal:contextual
+  # @todo Discuss removing in https://www.drupal.org/project/drupal/issues/2935999.
+  - drupal:field_ui
+  # @todo Discuss removing in https://www.drupal.org/project/drupal/issues/3003610.
+  - drupal:block'

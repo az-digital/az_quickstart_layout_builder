@@ -10,7 +10,7 @@
 /**
  * Implements hook_help().
  */
-/*function quickstart_fullwidth_layouts_help($route_name, RouteMatchInterface $route_match) {
+function quickstart_fullwidth_layouts_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
     // Main module help for the quickstart_fullwidth_layouts module.
     case 'help.page.quickstart_fullwidth_layouts':
@@ -21,15 +21,15 @@
 
     default:
   }
-}*/
+}
 
 /**
  * Implements hook_theme().
  */
-/*function quickstart_fullwidth_layouts_theme() {
+function quickstart_fullwidth_layouts_theme() {
   return [
     'quickstart_fullwidth_layouts' => [
       'render element' => 'children',
     ],
   ];
-}*/
+}
