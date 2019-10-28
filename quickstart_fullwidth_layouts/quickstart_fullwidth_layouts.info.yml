@@ -1,0 +1,5 @@
+name: 'quickstart_fullwidth_layouts'
+type: module
+description: 'Allows users to add full width layouts to their pages in layout builder'
+core: 8.x
+# package: 'Custom'

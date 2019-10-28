@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains quickstart_fullwidth_layouts.module.
+ */
+
+// use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+/*function quickstart_fullwidth_layouts_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the quickstart_fullwidth_layouts module.
+    case 'help.page.quickstart_fullwidth_layouts':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Allows users to add full width layouts to their pages in layout builder') . '</p>';
+      return $output;
+
+    default:
+  }
+}*/
+
+/**
+ * Implements hook_theme().
+ */
+/*function quickstart_fullwidth_layouts_theme() {
+  return [
+    'quickstart_fullwidth_layouts' => [
+      'render element' => 'children',
+    ],
+  ];
+}*/
